@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contact {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .bg h3,
+  .hero-text-box,
+  .logo-footer,
+  .mySlides,
+  .services-photo {
+    text-align: center;
+  }
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4%;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    display: none;
+  }
+  .main-nav li {
+    margin-top: 15px;
+    font-size: 14px;
+    display: block;
+  }
+  .main-nav li:link,
+  .main-nav li:visited {
+    display: block;
+    border: 0;
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  img.menu {
+    position: absolute;
+    top: 10px;
+    left: 310px;
+    width: 40px;
+  }
+  .mySlides {
+    margin: 30px auto;
+    display: none;
+    width: 70%;
+    height: 200px;
+  }
+  .footer-nav li,
+  .logo-footer {
+    display: block;
+  }
+  .w3-display-right {
+    margin-right: 5px;
+  }
+  .w3-display-left {
+    margin-left: 5px;
+  }
+  .logo-footer {
+    margin-right: 210px;
+  }
+  .hero-text-box {
+    position: absolute;
+    width: 1140px;
+    font-size: 10px;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #careers .join-us {
+    margin-top: 200px;
+  }
+  .services-photo {
+    opacity: 1;
+    width: 87%;
+    margin-top: 4px;
+    margin-left: 24px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  section .bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(img/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 175vh;
+  }
+  .bg h3 {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 15px;
+  }
+  #careers .thankyouhome {
+    margin-top: 80px;
+  }
+  #careers p {
+    color: #fff;
+    font-size: 10px;
+  }
+  .box1 {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .contact {
+    width: 100%;
+  }
+  .btn,
+  input[type="submit"] {
+    margin-top: 40px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    padding: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    margin-right: 10px;
+  }
+  .btn-full,
+  input[type="submit"] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+  }
+  .btn:active,
+  .btn:hover,
+  input[type="submit"]:active,
+  input[type="submit"]:hover {
+    background-color: #cf6d16;
+  }
+  .btn-full:active,
+  .btn-full:hover {
+    border: 1px solid #cf6d16;
+  }
+  .logo {
+    width: 130px;
+    height: 70px;
+  }
+  header {
+    height: 62vh;
+  }
+}
+.box1 a {
+  font-size: 15px;
+}
