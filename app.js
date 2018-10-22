@@ -96,7 +96,7 @@ app.get("/thankyou", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
 app.get("/services", function(req, res) {
-  res.sendFile(path.join(__dirname + "/thankyou.html"));
+  res.send("hi");
 });
 app.post("/contact", function(req, res) {
   console.log(req.body.name);
