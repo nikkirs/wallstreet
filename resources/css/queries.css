@@ -130,7 +130,15 @@
     font-size: 10px;
   }
   .box1 {
-    height: 325px;
+    height: 300px;
+  }
+  .servicesheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(img/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 17vh;
+    margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 480px) {
