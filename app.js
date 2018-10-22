@@ -2,7 +2,6 @@ var express = require("express");
 var path = require("path");
 var bodyParser = require("body-parser");
 var nodemailer = require("nodemailer");
-const xoauth2 = require("xoauth2");
 
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -95,8 +94,8 @@ app.get("/careers", function(req, res) {
 app.get("/thankyou", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
-app.get("/s", function(req, res) {
-  res.sendFile(path.join(__dirname + "/thankyou.html"));
+app.get("/services", function(req, res) {
+  res.sendFile(path.join(__dirname + "/services.html"));
 });
 app.post("/contact", function(req, res) {
   console.log(req.body.name);
@@ -104,4 +103,3 @@ app.post("/contact", function(req, res) {
 app.listen(3000, function() {
   console.log("server is listening");
 });
-// process.env.PORT
