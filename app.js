@@ -92,7 +92,7 @@ app.get("/", function(req, res) {
 app.get("/careers", function(req, res) {
   res.sendFile(path.join(__dirname + "/careers.html"));
 });
-app.get("/thankyou", function(req, res) {
+app.get("/t", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
 app.get("/s", function(req, res) {
