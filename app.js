@@ -88,11 +88,11 @@ app.post("/sendcareers", function(req, res) {
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-app.get("/thankyou", function(req, res) {
-  res.sendFile(path.join(__dirname + "/thankyou.html"));
+app.get("/careers", function(req, res) {
+  res.sendFile(path.join(__dirname + "/careers.html"));
 });
-app.get("/abcd",function(req,res){
-  res.send("HI");
+app.get("/thankyou", function(req, res) {
+  res.sendFile(path.join(__dirname + "/services.html"));
 });
 app.get("/services", function(req, res) {
   res.sendFile(path.join(__dirname + "/services.html"));
