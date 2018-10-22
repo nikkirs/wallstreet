@@ -91,8 +91,17 @@ app.get("/", function(req, res) {
 app.get("/careers", function(req, res) {
   res.sendFile(path.join(__dirname + "/careers.html"));
 });
+app.get("/thankyou", function(req, res) {
+  res.sendFile(path.join(__dirname + "/thankyou.html"));
+});
+app.get("/abcd",function(req,res){
+  res.send("HI");
+});
 app.get("/services", function(req, res) {
   res.sendFile(path.join(__dirname + "/services.html"));
+});
+app.post("/contact", function(req, res) {
+  console.log(req.body.name);
 });
 app.listen(3000, function() {
   console.log("server is listening");
