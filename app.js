@@ -95,6 +95,9 @@ app.get("/careers", function(req, res) {
 app.get("/thankyou", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
+app.get("/services", function(req, res) {
+  res.sendFile(path.join(__dirname + "/services.html"));
+});
 app.post("/contact", function(req, res) {
   console.log(req.body.name);
 });
