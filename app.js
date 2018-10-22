@@ -88,9 +88,6 @@ app.post("/sendcareers", function(req, res) {
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-app.get("/careers", function(req, res) {
-  res.sendFile(path.join(__dirname + "/careers.html"));
-});
 app.get("/thankyou", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
