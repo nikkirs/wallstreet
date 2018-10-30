@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-x:hidden">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -118,7 +118,7 @@
     background-color:black;
     opacity: 0.9;
     top:750px;
-    left: 800px;
+    left: 300px;
     margin: auto;
     width: 60%;
     padding: 20px;
@@ -153,14 +153,39 @@
 .apply{
     position: absolute;top:670px;left:100px;
 }
-h2{
-margin-top:30px;
+
+
 }
+#close1 {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
 }
+#close1:hover {
+  opacity: 1;
+}
+#close1:before, #close1:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+#close1:before {
+  transform: rotate(45deg);
+}
+#close1:after {
+  transform: rotate(-45deg);
+}
+
     </style>
 </head>
 
-<body style="overflow-x:hidden">
+<body>
     <header id="careers">
         <nav>
             <div class="row">
@@ -273,7 +298,7 @@ margin-top:30px;
     </div>
 
     <div class="center">
-        <!-- <button id="close" style="float: right;">X</button> -->
+        <span id="close1"></span>
         <form method="POST" action="/upload" class="contact" enctype="multipart/form-data">
             <div class="row">
                 <div class="col span-1-of-3">
@@ -489,12 +514,11 @@ margin-top:30px;
     <script>
         $('#show').on('click', function () {
             $('.center').show();
-            $(this).hide();
+
         })
 
-        $('#close').on('click', function () {
+        $('#close1').on('click', function () {
             $('.center').hide();
-            $('#show').show();
         })
     </script>
 </body>
