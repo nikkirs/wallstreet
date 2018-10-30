@@ -8,12 +8,12 @@
     Best marketing for events and party.Bangalore's top party organisers,event managers.">
     <meta name="keywords" content="party planners in Bangalore, Bangalore event planners, party organisers in Bangalore, Bangalore party organisers,event management companies in bangalore, top event management companies, event management company, event management services, event production, event organisers, luxury wedding planners in bangalore,  corporate events in bangalore,  bangalore event management companies">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="icon" type="image/ico" href="../favicon.ico" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/queries.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic&subset=latin,latin-ext' rel='stylesheet'
         type='text/css'>
 
@@ -21,8 +21,140 @@
 
     <title>WallStreetMediaHouse:Pub and Outdoor Events</title>
     <style>
+        * {
+            box-sizing: border-box
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            height:500px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 20px 20px 0;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 20px 0 0 20px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                display: block;
+            }
+
+            to {
+                margin: 0;
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+        .full{
+
+   width: 100vw;
+
+}
+.center {
+    position: absolute;
+    background-color:black;
+    opacity: 0.9;
+    top:750px;
+    left: 300px;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
 
 
+.apply{
+    position: absolute;top:980px;left:550px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .center {
+        color: white;
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  top: 400px;
+  left: 60px;
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btncareers {
+  margin-top: 60px;
+  margin-left: 80px;
+  text-align: center;
+}
+.apply{
+    position: absolute;top:670px;left:100px;
+}
+
+}
     </style>
 </head>
 
@@ -30,7 +162,7 @@
     <header id="careers">
         <nav>
             <div class="row">
-                <img src="resources/img/logo.png" alt="logo" class="logo">
+                <a href="/"><img src="resources/img/logo.png" alt="logo" class="logo"></a>
                 <ul class="main-nav js--main-nav">
                     <li><a href="/" class="close homecareers">Home</a></li>
                 </ul>
@@ -46,6 +178,183 @@
             </div>
         </nav>
     </header>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade full">
+            <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../resources/img/gd.jpg);
+          background-position: center;
+          background-size: cover;
+          height: 500px;">
+
+                <h1 class="h1slide">Graphic Designer</h1>
+                <br>
+
+                <p class="long-careers ">
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="mySlides fade full">
+            <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../resources/img/mm.jpeg);
+          background-position: center;
+          background-size: cover;
+          height: 500px; ">
+                <h1 class="h1slide">Marketing Manager</h1>
+                <br>
+
+                <p class="long-careers ">
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="mySlides fade full">
+            <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url(../resources/img/cs.jpeg);
+          background-position: center;
+          background-size: cover;
+          height: 500px; ">
+                <h1 class="h1slide">Client Service Manager</h1>
+                <br>
+
+                <p class="long-careers ">
+
+                </p>
+
+            </div>
+        </div>
+        <div class="mySlides fade full">
+            <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url(../resources/img/s.jpeg);
+          background-position: center;
+          background-size: cover;
+          height: 500px; ">
+                <h1 class="h1slide">Social Media Manager</h1>
+                <br>
+
+                <p class="long-careers ">
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- <div class="mySlides fade full">
+            <div style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG--MMErPnLT0K5DcgdHJDfd2w0vOCtfE275GXKOCPtT7T_KH2Q);
+          background-position: center;
+          background-size: cover;
+          height: 500px;">
+            </div>
+        </div> -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <span class="btn btn-ghost btncareers apply" id="show" style="cursor: pointer;">
+        Apply
+    </span>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="center">
+        <!-- <button id="close" style="float: right;">X</button> -->
+        <form method="POST" action="/upload" class="contact" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="phone">Phone Number</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="designation">Designation</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <select name="designation" id="designation">
+                        <option value="">Select</option>
+                        <option value="marketing-manager">Marketing Manager</option>
+                        <option value="client-service">Client Service Manager</option>
+                        <option value="graphic-designer">Graphic Designer</option>
+                        social media manager
+                    </select>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Job Skills And Training</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="skills" placeholder=""></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3">
+
+
+                    <span>Upload Resume</span>
+
+
+
+
+                </div>
+                <div class="col span-1-of-3">
+
+
+
+                    <input name="myImage" type="file">
+
+
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" id="my-file" value="Send it!" class="btn btn-full pointer" class="close">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
     <section class="form" id="careers-form">
         <div class="row">
             <h2>Join WallStreet Media House</h2>
@@ -76,7 +385,7 @@
                         <input type="email" name="email" id="email" placeholder="Your email" required>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col span-1-of-3">
                         <label for="designation">Designation</label>
                     </div>
@@ -86,9 +395,10 @@
                             <option value="marketing-manager">Marketing Manager</option>
                             <option value="client-service">Client Service Manager</option>
                             <option value="graphic-designer">Graphic Designer</option>
+                            social media manager
                         </select>
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col span-1-of-3">
                         <label>Job Skills And Training</label>
@@ -131,8 +441,6 @@
             </form>
         </div>
     </section>
-
-
     <footer>
         <div class="row">
 
@@ -147,7 +455,7 @@
                 </ul>
             </div>
             <div class="col span-1-of-2">
-                <img src="resources/img/logo.png" alt="logo" class="logo-footer">
+                <a href="/"><img src="resources/img/logo.png" alt="logo" class="logo-footer"></a>
                 <!-- <ul class="social-links">
                         <li><a href="">
                                 <img src="resources/img/facebook.png" />
@@ -169,12 +477,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="resources/js/script.js"></script>
-    <script src="resources/js/smooth-scroll.js"></script>
+    <script src="../vendors/js/jquery.waypoints.min.js"></script>
+    <script src="../resources/js/script.js"></script>
+    <script src="../resources/js/smooth-scroll.js"></script>
     <script>
         var x = document.getElementById("my-file").value;
         console.log(x)
+    </script>
+    <script>
+        $('#show').on('click', function () {
+            $('.center').show();
+            $(this).hide();
+        })
+
+        $('#close').on('click', function () {
+            $('.center').hide();
+            $('#show').show();
+        })
     </script>
 </body>
 

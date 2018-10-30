@@ -102,6 +102,11 @@ input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
 }
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
 .btn:hover,
 .btn:active,
 input[type="submit"]:hover,
@@ -111,6 +116,46 @@ input[type="submit"]:active {
 .btn-full:hover,
 .btn-full:active {
   border: 1px solid #cf6d16;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d16;
+  color: #fff;
+}
+.btn {
+  margin-top: 40px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+.btn-full {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+}
+.btn-ghost {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #cf6d16;
+}
+.btn-full {
+  border: 1px solid #cf6d16;
+}
+.btn-ghost {
+  border: 1px solid #cf6d16;
+  color: #fff;
 }
 
 /*************ICONS------------------------*/
@@ -134,7 +179,7 @@ input[type="submit"]:active {
 /*-----------------------------------------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero1.jpeg);
+    url(img/mou.jpeg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -231,7 +276,7 @@ header {
 /*MEET-THE-TEAM*/
 /*-----------------------------------------*/
 .box1 {
-  border: 0.2px solid #000;
+  background-color: rgb(236, 236, 236);
   height: 530px;
   text-align: center;
 }
@@ -419,4 +464,30 @@ section .bg {
 }
 .box1 a {
   font-size: 11px;
+}
+
+/*----------------Find Jobs---------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/* Slideshow container */
+.long-careers {
+  line-height: 145%;
+  text-align: center;
+  width: 70%;
+  padding-top: 20px;
+  margin-left: 15%;
+  color: white;
+}
+.h1slide {
+  padding-top: 100px;
+  color: #fff;
+  font-size: 200%;
+  word-spacing: 4px;
+}
+.btncareers {
+  margin-top: 60px;
+  margin-left: 210px;
+  text-align: center;
 }
