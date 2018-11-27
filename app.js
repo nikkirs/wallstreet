@@ -204,6 +204,9 @@ app.get("/services", function(req, res) {
 app.post("/contact", function(req, res) {
   console.log(req.body.name);
 });
+app.get("/events", function(req, res) {
+  res.render("events");
+});
 app.listen(3000, function() {
   console.log("server is listening");
 });
