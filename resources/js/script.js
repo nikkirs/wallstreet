@@ -46,7 +46,7 @@ function currentSlide(no) {
 
 function plusSlides(n) {
   var newslideIndex = slideIndex + n;
-  if (newslideIndex < 5 && newslideIndex > 0) {
+  if (newslideIndex < 4 && newslideIndex > 0) {
     currentSlide(newslideIndex);
   }
 }
