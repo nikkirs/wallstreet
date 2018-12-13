@@ -195,6 +195,9 @@ app.get("/careers", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("index");
 });
+app.get("/gift", function(req, res) {
+  res.render("gift");
+});
 app.get("/thankyou", function(req, res) {
   res.sendFile(path.join(__dirname + "/thankyou.html"));
 });
