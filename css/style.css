@@ -1127,7 +1127,7 @@ footer p {
       text-align: center;
       margin: 5rem auto; } }
   .event_div1__1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/a1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/a1.jpeg);
     background-position: center;
     background-size: cover;
     margin: 10rem auto;
@@ -1160,7 +1160,7 @@ footer p {
       text-align: center;
       margin: 5rem auto; } }
   .event_div2__1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/a2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../img/a2.jpeg);
     background-position: center;
     background-size: cover;
     margin: 10rem auto;
@@ -1193,7 +1193,7 @@ footer p {
       text-align: center;
       margin: 5rem auto; } }
   .event_div3__1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/a3.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/a3.jpeg);
     background-position: center;
     background-size: cover;
     margin: 10rem auto;
