@@ -195,7 +195,7 @@ app.get("/careers", function(req, res) {
   // res.sendFile(path.join(__dirname + "/careers.html"));
   res.render("index");
 });
-app.get("/gift1", function(req, res) {
+app.get("/The-Perfect-Christmas-Gift-Guide-For-That-Awesome-Girl-Boss-In-Your-Life", function(req, res) {
   res.render("gift");
 });
 app.get("/thankyou", function(req, res) {
@@ -210,7 +210,7 @@ app.post("/contact", function(req, res) {
 app.get("/events", function(req, res) {
   res.render("events");
 });
-app.get("/blog", function(req, res) {
+app.get("/blogs", function(req, res) {
   res.render("blog");
 });
 app.listen(3000, function() {
