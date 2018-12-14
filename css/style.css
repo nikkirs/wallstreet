@@ -1561,7 +1561,7 @@ footer p {
   @media (max-width: 37.5em) {
     .navigation2__background {
       position: fixed;
-      top: 1rem;
+      top: 1.5rem;
       left: 80vw; } }
 
 .navigation2__nav {
